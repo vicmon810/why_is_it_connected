@@ -1,0 +1,10 @@
+version: 1
+project:
+  id: ed19527b-8915-481d-af56-306bef4c8def
+  title: what is in between
+  description: Inspired by MIT's 'The Missing Semester of Your CS Education,' I've realized a significant gap in my own learning journey. In my studies, I’ve often encountered the same concepts repeated across Machine Learning, Computer Science, and Statistics courses. However, the crucial connection between them—the why and the how—is rarely explained, leaving us to piece together the puzzle ourselves
+  keywords: [data science, machine learning, statistics, computer science, conceptual bridge]
+  github: https://github.com/vicmon810/why_is_it_connected
+
+site:
+  template: book-theme
