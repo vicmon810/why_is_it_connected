@@ -6,7 +6,7 @@ This tutorial is meant to explain the connections that are usually left implicit
 
 ## Core writing principle:
 
-- each chapter should answer three qutions:
+- each Chaptershould answer three qutions:
     - 1. what is the concept?
     - 2. why does it mater?
     - 3. how does it connect to CS. statistice and data science?
@@ -25,40 +25,40 @@ This tutorial is meant to explain the connections that are usually left implicit
 
 ### Part I. What data actually is
 
-- chapter 1. What is Data?
-- chapter 2. From Scalars to Vectors to Matrices. 
-- chapter 3. Variables, features, and Random Variables
+- [Chapter1. What is Data?](/chapter_1.md) 
+- [Chapter2. From Scalars to Vectors to Matrices.](/chapter_2.md) 
+- [Chapter3. Variables, features, and Random Variables.](/chapter_3.md)
 
 ### Part II The linear algebra layer
 
-- chapter 4. Vectors as Points and Directions
-- chapter 5. Matrices as Transformations
-- chapter 6. Projection and Approximation 
-- chapter 7. Least Squares and Linear Regression
+- [Chapter4. Vectors as Points and Directions.](/chapter_4.md)
+- [Chapter5. Matrices as Transformations](/chapter_5.md)
+- Chapter6. Projection and Approximation 
+- Chapter7. Least Squares and Linear Regression
 
 ### Part III The statistics layer
 
-- chapter 8. Distribution, Expectation, and Variance.
-- chapter 9. Covariance and Correlation Structure
-- chapter 10. Statisticall Models as Simplifications
-- chapter 11. Estimation and Maximum Likelihood 
-- chapter 12. Inference, Uncertainty and Interpretaion 
+- Chapter8. Distribution, Expectation, and Variance.
+- Chapter9. Covariance and Correlation Structure
+- Chapter10. Statisticall Models as Simplifications
+- Chapter11. Estimation and Maximum Likelihood 
+- Chapter12. Inference, Uncertainty and Interpretaion 
 
 ### Part IV The mulitivariate bridge
 
-- chapter 13 Eigenvalues and Eigenvectors
-- chapter 14 Principal Component Analysis
-- chapter 15 Factor Analysis and Latent Structure 
+- Chapter13 Eigenvalues and Eigenvectors
+- Chapter14 Principal Component Analysis
+- Chapter15 Factor Analysis and Latent Structure 
 
 ### Part V The Machine Learning
 
-- chapter 16 Loss Function and Learning Objectives
-- chapter 17 Optimization and Gradient Decent
-- chapter 18 Regularization and Generalization
+- Chapter16 Loss Function and Learning Objectives
+- Chapter17 Optimization and Gradient Decent
+- Chapter18 Regularization and Generalization
 
 ### Part VI THe computer Science
 
-- chapter 19 Algorithms, Scale and Computation
-- chapter 20 Similarity, search and Data System
-- chapter 21 Prediction, Explanation and Decision-making
-- chapter 22 A Unified map of Data Science
+- Chapter19 Algorithms, Scale and Computation
+- Chapter20 Similarity, search and Data System
+- Chapter21 Prediction, Explanation and Decision-making
+- Chapter22 A Unified map of Data Science
