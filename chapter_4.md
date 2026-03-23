@@ -8,11 +8,11 @@ kernelspec:
 
 # Chapter4. Vectors as Points and Directions
 
-In this Chapter we will slove the following question: 
+In this Chapter we will solve the following question: 
 
 - <strong>What does a vector actually represent?</strong> 
 
-Vector are often introduced as lists of numbers, but this definition alone does not explain why vector are so important.
+Vectors are often introduced as lists of numbers, but this definition alone does not explain why vector are so important.
 
 In this chpater, we break this question into smaller and slove it one by one. 
 
@@ -29,14 +29,14 @@ x = np.array([1,2,3])
 print(x)
 ```
 
-This suggests that a vector is just a container of values. However, this veiw is incomplete. 
+This suggests that a vector is just a container of values. However, this view is incomplete. 
 
 The same list of number can represent: 
 - a data point
 - a position in space
 - a direction
 
-So the key quesiton is :
+So the key question is :
 - **What gives meaning to a vector**
 
 
@@ -122,10 +122,10 @@ A vector can encode movement.
 
 ## Q4 How do we measure vectors?
 
-If vectore represent positions or directions, we need ways to measure them. 
+If vectors represent positions or directions, we need ways to measure them. 
 
 ### (1) length(magnitude)
-The lenght of a vectore tells us how fat it is from the origin.
+The length of a vector tells us how far it is from the origin.
 
 ```{code-cell} python3
 x = np.array([3,4])
@@ -262,7 +262,7 @@ HTML(animation.to_jshtml())
 
 ## Q5 How do vector interact?
 
-Vector become powerful when we combine or compare them. 
+Vector become powerful when we combine or compare them.
 
 ### (1) Vector addition
 
@@ -306,7 +306,7 @@ a = np.array([1,0])
 b = np.array([0,1])
 ```
 
-this means vectors are independent,they do not share directions. 
+this means vectors are independent, they do not share directions. 
 
 ## Q6 Why does this matter for data science?
 
