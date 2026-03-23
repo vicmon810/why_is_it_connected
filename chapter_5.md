@@ -62,6 +62,8 @@ The x component got pushed by the value of y.
 Real world: imagine v\mathbf{v}
 v is a data point entering a neural network layer. The weight matrix is a general linear transformation — it shears, scales, and rotates the data representation all at once. After many such layers, the network has warped the data into a shape where a simple boundary can separate cats from dogs, spam from not-spam, and so on.
 
+### How do these terms relate between CS, Statistics and Data science?
+
 | Transformation | Computer Science | Statistics | Data Science |
 |---|---|---|---|
 | **Scaling** | Normalisation / coordinate scaling | Standardisation ($z$-score), variance stabilisation | Feature scaling, data preprocessing |
