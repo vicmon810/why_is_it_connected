@@ -6,15 +6,15 @@ This tutorial is meant to explain the connections that are usually left implicit
 
 ## Core writing principle:
 
-- each Chaptershould answer three qutions:
+- Each chapter should answer three questions:
     - 1. what is the concept?
     - 2. why does it mater?
-    - 3. how does it connect to CS. statistice and data science?
+    - 3. how does it connect to CS. statistics and data science?
 - A strong recurring template for every chapters: 
   - Big question
   - Core intuition
   - Formal view 
-  - cs View
+  - Cs view
   - Statistics view
   - ML/data science view
   - Small example 
