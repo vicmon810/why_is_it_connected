@@ -6,22 +6,22 @@ This tutorial is meant to explain the connections that are usually left implicit
 
 ## Core writing principle:
 
-- each Chaptershould answer three qutions:
+- Each chapter should answer three questions:
     - 1. what is the concept?
-    - 2. why does it mater?
-    - 3. how does it connect to CS. statistice and data science?
+    - 2. why does it matter?
+    - 3. how does it connect to CS. statistics and data science?
 - A strong recurring template for every chapters: 
   - Big question
   - Core intuition
   - Formal view 
-  - cs View
+  - Cs view
   - Statistics view
   - ML/data science view
   - Small example 
   - Common misunderstanding 
   - Key takeaway 
   
-## Tutorail Structure
+## Tutorial Structure
 
 ### Part I. What data actually is
 
@@ -40,7 +40,7 @@ This tutorial is meant to explain the connections that are usually left implicit
 
 - Chapter8. Distribution, Expectation, and Variance.
 - Chapter9. Covariance and Correlation Structure
-- Chapter10. Statisticall Models as Simplifications
+- Chapter10. Statistical Models as Simplifications
 - Chapter11. Estimation and Maximum Likelihood 
 - Chapter12. Inference, Uncertainty and Interpretaion 
 
