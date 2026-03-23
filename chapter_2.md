@@ -15,7 +15,7 @@ To work with data effectively, we need a way to organize these numbers.
 
 - Scalar(one number)
 - Vector(a list of numbers)
-- Matix(a table of numbers)
+- Matrix(a table of numbers)
   
 ## Scalar - a single value
 
