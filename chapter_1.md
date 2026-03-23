@@ -24,9 +24,9 @@ Despite these differences, there is a common structure behind most data: it can 
 
 A *scalar* is a single numerical value. 
 
-The trem originates from physics, where it refer to a quantity fully described by its magnitued(e.g., temperature,mass).
+The trem originates from physics, where it refer to a quantity fully described by its magnitude (e.g., temperature,mass).
 
-In data science, we simplify this concept and tread a scalar as a single number. 
+In data science, we simplify this concept and treat a scalar as a single number. 
 
 $$
  x = 1
@@ -74,7 +74,7 @@ print(type(lst),lst)
 
 It represents *mutiple data points*, where
 - each row is a vector(a data point)
-- each cholumn is a feature(a variable)
+- each column is a feature(a variable)
 
 Mathematically: 
 $$
