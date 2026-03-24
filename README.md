@@ -1,6 +1,6 @@
 # Intro
 
-Welcome to *Why Is It Connected*.
+Welcome to *[Why Is It Connected](https://vicmon810.github.io/why_is_it_connected/)*.
 
 This tutorial is meant to explain the connections that are usually left implicit across *statistics, machine learning, and computer science*. Instead of teaching isolated techniques, it focuses on the underlying ideas that unify them.
 
