@@ -53,6 +53,7 @@ Key points:
 - Data can be viewed as points in space. 
 
 ```{code-cell} python3
+:tags: ["remove-input"]
 import matplotlib.pyplot as plt
 
 height = [156,167,189,155,178]

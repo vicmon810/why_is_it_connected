@@ -73,6 +73,7 @@ Now interpret the same vector differently, instead of a point, think of it as an
 ```
 
 ```{code-cell} python3
+:tags: ["remove-input"]
 from matplotlib import rc
 rc('animation', html='jshtml')
 import numpy as np
@@ -137,6 +138,7 @@ $$ \sqrt{3^2 + 4^2} = 5$$
 
 
 ```{code-cell} python3
+:tags: ["remove-input"]
 from matplotlib import rc
 rc('animation', html='jshtml')
 import numpy as np
@@ -200,6 +202,8 @@ print(unit)
 ```
 
 ```{code-cell} python3
+:tags: ["remove-input"]
+
 from matplotlib import rc
 rc('animation', html='jshtml')
 import numpy as np

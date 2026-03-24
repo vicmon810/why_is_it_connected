@@ -58,6 +58,8 @@ This hidden rule is called a **Distribution**.
 We can simulate different distributions:
 
 ```{code-cell} python3
+:tags: ["remove-input"]
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -153,6 +155,7 @@ Individual observations fluctuate, yet averages become more stable as we collect
 Let simulate this 
 
 ```{code-cell} python3
+:tags: ["remove-input"]
 means = []
 
 for n in range(1,500):
