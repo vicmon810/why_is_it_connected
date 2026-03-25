@@ -39,7 +39,7 @@ This tutorial is meant to explain the connections that are usually left implicit
 ### Part III The statistics layer
 
 - [Chapter8. Distribution, Expectation, and Variance.](/chapter_8.md)
-- Chapter9. Covariance and Correlation Structure
+- [Chapter9. Covariance and Correlation Structure](/chapter_9.md)
 - Chapter10. Statistical Models as Simplifications
 - Chapter11. Estimation and Maximum Likelihood 
 - Chapter12. Inference, Uncertainty and Interpretaion 
