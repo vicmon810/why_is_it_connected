@@ -5,7 +5,7 @@ kernelspec:
     language: python
 ---
 
-# Chapter 9 Convariance & Correlation
+# Chapter 9 Covariance & Correlation
 
 In the pervious chapter we asked:
 
