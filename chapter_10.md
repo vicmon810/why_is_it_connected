@@ -142,7 +142,8 @@ model_simple.fit(X,y)
 Model_complex.fit(X,y)
 
 print(model_simple.coef_, model_simple.intercept_)
-print(Model_complex.coef_, Model_complex.intercept_)
+
+print(Model_complex[-1].coef_, Model_complex[-1].intercept_)
 
 ```
 Hence:
