@@ -108,3 +108,66 @@ print(model.coef_, model.intercept_)
 
 This procudes and estimate of the underlying relationship, however it does not recover teh true process excatly, and it only approximates it based on observed data. 
 
+## Why does a Model actually learn
+
+This a critical conceptual point. 
+
+A model does not learn:
+- the *exact* data
+- the *full distribution*
+
+Instead, it learns:
+$$\textbf{A structured approximation of the relationship between variables}$$
+
+For regression:
+$$model \approx E[Y|X]$$
+
+For classificatin:
+$$ Model \approx P(Y|X)$$
+
+These are properties of the distribution, not arbitrary constructs.
+
+## Underfitting & Overfitting
+
+We can illustrate model complexity:
+
+```{code-cell} python3
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.pipeline import make_pipeline
+
+model_simple = LinearRegression()
+Model_complex = make_pipeline(PolynomialFeatures(5), LinearRegression())
+
+model_simple.fit(X,y)
+Model_complex.fit(X,y)
+
+print(model_simple.coef_, model_simple.intercept_)
+print(Model_complex.coef_, Model_complex.intercept_)
+
+```
+Hence:
+-  Underfitting -> model too simple -> misses structure
+-  Overfitting -> model too complex -> fits noise
+
+The goal is not perfect fit, but useful approximation
+
+## Models as compression
+
+A powerful way to think about model: *A model compresses data into a smaller set of parameters.* Instead of storing 1000 ovservations, we store:
+- a few coefficients
+- a functional form
+
+This compression captures the essential structure. 
+
+## Why this matters in Machine Learning 
+
+Machine Learning(ML) extends this idea:
+
+- Linear models -> simple approximations
+- Neural networks -> complex approximations
+- Tree models -> rule-based approximations
+
+All share a same principle: 
+- *A model approximates the underlying distribution using a restricted form.*
+
+
